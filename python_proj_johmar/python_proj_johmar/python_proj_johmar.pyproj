@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>462ffe55-c91d-43e6-a082-230e28356cd6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>python_proj_johmar.py</StartupFile>
+    <StartupFile>main_program.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="python_proj_johmar.py" />
+    <Compile Include="multiplication.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="main_program.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
