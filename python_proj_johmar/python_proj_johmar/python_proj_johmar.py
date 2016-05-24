@@ -2,25 +2,25 @@ from tkinter import *
 import random
 
 
-
-root = Tk()
-root.title("MathProject")
-canvas = Canvas(root)
-lbl1 = Label(root, text="Enter a name:")
-name_entr = Entry()
-lbl2 = Label(root, text="Choose a program to exercise") 									
-btn_add = Button(root, text="Addition", width=10)
-btn_sub = Button(root, text="Subtraction", width=10)
-btn_mul = Button(root, text="Multiplication", width=10)
-btn_div = Button(root, text="Divition", width=10)
-lbl1.grid(row=0, column=0)
-name_entr.grid(row=0, column=1)
-lbl2.grid(row=1, columnspan=2)
-btn_add.grid(row=2, column=0)
-btn_sub.grid(row=2, column=1)
-btn_mul.grid(row=3, column=0)
-btn_div.grid(row=3, column=1)
-root.mainloop()
+class main_window:
+    root = Tk()
+    root.title("MathProject")
+    canvas = Canvas(root)
+    lbl1 = Label(root, text="Enter a name:")
+    name_entr = Entry()
+    lbl2 = Label(root, text="Choose a program to exercise") 									
+    btn_add = Button(root, text="Addition", width=10)
+    btn_sub = Button(root, text="Subtraction", width=10)
+    btn_mul = Button(root, text="Multiplication", width=10)
+    btn_div = Button(root, text="Divition", width=10)
+    lbl1.grid(row=0, column=0)
+    name_entr.grid(row=0, column=1)
+    lbl2.grid(row=1, columnspan=2)
+    btn_add.grid(row=2, column=0)
+    btn_sub.grid(row=2, column=1)
+    btn_mul.grid(row=3, column=0)
+    btn_div.grid(row=3, column=1)
+    root.mainloop()
 
 
 
