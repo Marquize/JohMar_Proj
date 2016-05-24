@@ -1,5 +1,4 @@
 from tkinter import *
-import random
 import multiplication as mul_py
 
 
