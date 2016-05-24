@@ -1,6 +1,6 @@
 from tkinter import *
 import multiplication as mul_py
-
+import addition_file as add_py
 
 root = Tk()
 root.title("MathProject")
@@ -8,7 +8,7 @@ canvas = Canvas(root)
 lbl1 = Label(root, text="Enter a name:")
 name_entr = Entry()
 lbl2 = Label(root, text="Choose a program to exercise")
-btn_add = Button(root, text="Addition", width=10)
+btn_add = Button(root, text="Addition", width=10, command=add_py.addition)
 btn_sub = Button(root, text="Subtraction", width=10)
 btn_mul = Button(root, text="Multiplication", width=10, command=mul_py.multiplication)
 btn_div = Button(root, text="Divition", width=10)

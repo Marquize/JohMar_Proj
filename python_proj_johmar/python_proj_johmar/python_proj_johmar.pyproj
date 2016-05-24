@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="addition_file.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="multiplication.py">
       <SubType>Code</SubType>
     </Compile>
